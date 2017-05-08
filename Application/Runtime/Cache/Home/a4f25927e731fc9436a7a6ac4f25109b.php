@@ -1,0 +1,78 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>“饭卡回家”个人中心</title>
+
+    <link href="/Public/Home/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Public/Home/css/personal.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond.js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="main">
+   <div class="return">
+      <a type="button" class="btn btn-primary " href="/" >返回主页
+        </a>
+  </div>
+   <div class="personal_button">
+       <span class="glyphicon glyphicon-user" aria-hidden="true">个人中心</span>
+    </div>
+         <div class="top">
+            <?php foreach($message as $k=>$v){?>
+             <div class="message">
+                   <p><?=$v['message']?></p>
+                   <span><font color="gray">时间:<?=$v['create_at']?></font><span>
+                      <button style="float:right" type="button" class="btn btn-success" data-target="#myModal" data-toggle="modal" onclick="$('#confirm').attr('mid',<?=$v['id']?>);">
+                          已读
+                      </button>
+              </div>
+            <?php }?>
+           </div>
+ </div>
+<div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" style="margin-top:100px">
+        <div class="modal-dialog">
+
+            <div class="modal-content animated bounceInRight">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span>
+                    </button>
+                    <h4 class="modal-title">确定已读？</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+                    <button type="button" typeid="" mid="" class="btn btn-primary" id="confirm">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/Public/Home/js/jquery/jquery.min.js"></script>
+<script src="/Public/Home/js/layui/layer.js"></script>
+<script src="/Public/Home/js/bootstrap/js/bootstrap.min.js"></script>
+<script src="/Public/Home/js/index.js"></script>
+
+<script>
+  
+  $('#confirm').click(function(){
+      mid = $('#confirm').attr('mid');
+      url = '<?php echo U('index/read')?>';
+      $.ajax({
+                type : 'post',
+                data : {mid : mid},
+                url  : url,
+                success : function(data){
+                    if(data == 'success'){
+                      window.location.reload();
+                    }
+                }
+            });
+  });
+</script>
+</html>

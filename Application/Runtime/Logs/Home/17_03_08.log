@@ -1,0 +1,481 @@
+[ 2017-03-08T21:34:42+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.089005s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:03:41') [ RunTime:0.463027s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 7 LIMIT 1   [ RunTime:0.068004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T21:37:00+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:03:59') [ RunTime:0.561032s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 8 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T21:43:35+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:03:34') [ RunTime:0.421024s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 9 LIMIT 1   [ RunTime:0.150009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T21:45:00+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:45:00') [ RunTime:0.075004s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T21:49:08+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:49:08') [ RunTime:0.101006s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T21:50:12+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:50:12') [ RunTime:0.114007s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 12 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T21:50:17+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:50:17') [ RunTime:0.129008s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 13 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T21:52:09+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:52:09') [ RunTime:0.085005s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T21:52:16+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545151 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545151,'131545151+杨嘉颖+互联网金融与信息工程系',0,'2017-03-08 21:52:16') [ RunTime:0.298017s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T22:08:14+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-08T22:08:34+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T22:08:36+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.002000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T22:17:05+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T22:17:07+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T22:18:14+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T22:32:10+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\Xampp\htdocs\gb\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `publish` (`message`,`sno`,`img_url`,`create_at`) VALUES ('666',131545151,'Publish/2017-03-08/58c015ea8a9ec.jpg','2017-03-08 22:32:10') [ RunTime:0.087005s ]
+
+[ 2017-03-08T22:40:51+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004001s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:40:51') [ RunTime:0.250014s ]
+
+[ 2017-03-08T22:41:04+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\Xampp\htdocs\gb\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`img_url`,`create_at`) VALUES ('888',131545151,1,'Publish/2017-03-08/58c0180082352.png','2017-03-08 22:41:04') [ RunTime:0.113006s ]
+
+[ 2017-03-08T22:45:42+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003001s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:41') [ RunTime:0.160009s ]
+
+[ 2017-03-08T22:45:43+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:43') [ RunTime:0.158009s ]
+
+[ 2017-03-08T22:45:43+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:43') [ RunTime:0.084004s ]
+
+[ 2017-03-08T22:45:43+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003001s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:43') [ RunTime:0.063003s ]
+
+[ 2017-03-08T22:45:44+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003001s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:44') [ RunTime:0.065003s ]
+
+[ 2017-03-08T22:45:44+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004001s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('999',131545151,1,'2017-03-08 22:45:44') [ RunTime:0.060003s ]
+
+[ 2017-03-08T22:47:35+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('1010',131545151,1,'2017-03-08 22:47:35') [ RunTime:0.208012s ]
+
+[ 2017-03-08T22:47:53+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006001s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.004000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('1010',131545151,1,'2017-03-08 22:47:53') [ RunTime:0.090005s ]
+
+[ 2017-03-08T22:48:15+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005001s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('33366',131545151,1,'2017-03-08 22:48:15') [ RunTime:0.134008s ]
+
+[ 2017-03-08T23:00:05+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxContact.html131545151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+ERR: 非法操作:ajaxContact.html131545151
+
+[ 2017-03-08T23:00:52+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxContact.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+ERR: 非法操作:ajaxContact
+
+[ 2017-03-08T23:02:27+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxContact.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.003000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `category`
+SQL: SELECT * FROM `category`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'gbcart.category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `category` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Xampp\htdocs\gb\Application\Admin\Model\CategoryModel.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

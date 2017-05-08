@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>“饭卡回家”系统主页</title>
+
+    <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/index.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond.js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+    <div class="main">
+        <div class="left">
+         <div class="left_top">
+            <div class="personal">
+                <button class="btn btn-primary" type="button">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    个人中心
+                    <span class="badge">4</span>
+                </button>
+            </div>
+            <div class="findcard">
+                <button type="button" class="btn btn-success">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    一键找饭卡
+                </button>
+            </div>
+            <div class="finduser">
+                <input type="text" placeholder="请输入学号" name="" id="">
+                <button type="button" class="btn btn-info">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    一键找失主
+                </button>
+            </div>
+          </div>
+            <div class="left_bottom">
+              <span class="label label-warning">广金快讯</span>
+              <div class="news">
+                  <p>我是内容，如果我过长请将我多余的内容隐藏并显示省略号我是内容，如果我过长请将我过长请将我多余的内容隐藏并显示省略号</p>
+              </div>
+            </div>
+         </div>
+
+        <div class="right">
+
+            <div class="right_top">
+            <form action="" class="publish clearfix">
+                <p class="clearfix"><a type="button" class="btn btn-primary pull-right" href="login.html" >退出</a></p>
+                <p>您好,请问有什么丢失物品需要寻找?</p>
+                <textarea name="" id="" class="content"></textarea>
+                <input id="img" type="file" value="上传图片" style="visibility:hidden;position:absolute;top:0px;width:0px">
+                <input type="button" value="上传图片" id="btn" class="pull-left" />
+                <submit type="button" class="btn btn-danger pull-right" id="fabu">发布</submit>
+            </form>
+            </div>
+
+            <div class="list">
+                <span class="label label-warning">正在寻找主人</span>
+                <div class="passage">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object" src="./static/img/5.jpg" alt="..." width="150px" height="150px">
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">gb天天向上</h2>
+                            <p>我是内容，如果我过长请将我多余的内容隐藏并显示省略号我是内容，如果我过长请将我多余的内容隐藏并显示省略号我是内容，如果我过多余的内容隐藏并显示省略号</p>
+                            <div class="contact">
+                                <input type="button" value="联系Ta" id="btn" class="contact-btn" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="passage">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object" src="./static/img/5.jpg" alt="..." width="150px" height="150px">
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">gb天天向上</h2>
+                            <p>我是内容，如果我过长请将我多余的内容隐藏并显示省略号我是内容，如果我过长请将我多余的内容隐藏并显示省略号我是内容，如果我过多余的内容隐藏并显示省略号</p>
+                            <div class="contact">
+                                <input type="button" value="联系Ta" id="btn" class="contact-btn" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/layui/layer.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./static/js/index.js"></script>
+</html>

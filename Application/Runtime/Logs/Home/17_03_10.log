@@ -1,0 +1,45 @@
+[ 2017-03-10T20:34:00+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxFabu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.000000s ]
+SQL: INSERT INTO `publish` (`message`,`sno`,`type`,`create_at`) VALUES ('6666',131545151,1,'2017-03-10 20:34:00') [ RunTime:0.109200s ]
+
+[ 2017-03-10T20:34:19+08:00 ] 127.0.0.1 /index.php/Home/index/read.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.003000s ]
+SQL: DELETE FROM `message` WHERE `id` = 7 [ RunTime:0.092001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-10T20:35:49+08:00 ] 127.0.0.1 /index.php/Home/index/ajaxPublish.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user` WHERE `sno` = 131545149 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.003000s ]
+SQL: INSERT INTO `publish` (`sno`,`message`,`type`,`create_at`) VALUES (131545149,'131545149+谢观宝+互联网金融与信息工程系',0,'2017-03-10 20:35:48') [ RunTime:0.121602s ]
+SQL: SELECT * FROM `publish` WHERE `id` = 35 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-10T23:21:34+08:00 ] 127.0.0.1 /
+ERR: 错误的查询条件:[content=>Array]
+
+[ 2017-03-10T23:23:16+08:00 ] 127.0.0.1 /
+ERR: 错误的查询条件:[content=>Array]
+
+[ 2017-03-10T23:25:01+08:00 ] 127.0.0.1 /
+ERR: 错误的查询条件:[content=>Array]
+
+[ 2017-03-10T23:25:58+08:00 ] 127.0.0.1 /
+ERR: 错误的查询条件:[content=>Array]
+
+[ 2017-03-10T23:26:30+08:00 ] 127.0.0.1 /
+ERR: 错误的查询条件:[content=>Array]
+

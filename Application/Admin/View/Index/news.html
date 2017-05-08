@@ -1,0 +1,57 @@
+<layout name="layout" />
+
+
+<!-- 商品列表 -->
+
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>编号</th>
+                <th>内容</th>
+                <th>创建时间</th>
+                <th width="78">操作</th>
+            </tr>
+            <?php foreach($news as $key=>$v){?>
+            <tr class="tron">
+                <td align="center"><?php echo $v['id']?></td>
+                <td align="center" class="first-cell"><span><?php echo htmlspecialchars($v['content'])?></span></td>
+                <td align="center"><span onclick=""><?php echo $v['create_at']?></span></td>
+                <td>
+                
+                <a href="edit?id=<?php echo $v['id']?>" title="编辑"><img id="img_edit" src="__PUBLIC__/Admin/Images/icon_edit.gif" width="16" height="16" border="0" /></a><a href="del?id=<?php echo $v['id']?>" onclick="return confirm('你确定要删除吗？');" title="回收站"><img id="img_trash" src="__PUBLIC__/Admin/Images/icon_trash.gif" width="16" height="16" border="0" /></a></td>
+            </tr>
+            <?php }?>
+        </table>
+
+    <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    <?php echo $data['page']; ?>
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+
+<!-- 时间插件 -->
+<script type="text/javascript" src="__PUBLIC__/umeditor1_2_2-utf8-php/third-party/jquery.min.js"></script>
+<link href="__PUBLIC__/datetimepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datetimepicker/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/datetimepicker/datepicker-zh_cn.js"></script>
+<link rel="stylesheet" media="all" type="text/css" href="__PUBLIC__/datetimepicker/time/jquery-ui-timepicker-addon.min.css" />
+<script type="text/javascript" src="__PUBLIC__/datetimepicker/time/jquery-ui-timepicker-addon.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/datetimepicker/time/i18n/jquery-ui-timepicker-addon-i18n.min.js"></script>
+<script>
+$.timepicker.setDefaults($.timepicker.regional['zh-CN']);
+$("#fa").datetimepicker();
+$("#dao").datetimepicker();
+</script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/tron.js">
+</script>
+
+
+
+
+
